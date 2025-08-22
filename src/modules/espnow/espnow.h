@@ -72,7 +72,9 @@ struct GameParam {
   uint16_t second_escape_max;
   uint16_t red_ratio;
   uint16_t reinbow_ratio;
-  // ポイントもマスターから指定する
+  uint8_t white_point;
+  uint8_t red_point;
+  uint8_t reinbow_point;
 };
 
 struct GameInfo {
